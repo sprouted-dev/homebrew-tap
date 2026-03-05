@@ -7,14 +7,14 @@ class Guild < Formula
   on_macos do
     on_arm do
       url "https://github.com/sprouted-dev/guild/releases/download/v#{version}/guild-macos-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "37b62f5200bc8a7afc21e9689154c18051ee160988652e9f1b369e79d5212537"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sprouted-dev/guild/releases/download/v#{version}/guild-linux-x86_64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "2bd8ffa745db67e8829b2d4b6ca69393f86e39f2572bcc90158e77f2d92f7333"
     end
   end
 
