@@ -9,11 +9,6 @@ class Guild < Formula
       url "https://github.com/sprouted-dev/guild/releases/download/v#{version}/guild-macos-arm64.tar.gz"
       sha256 "PLACEHOLDER"
     end
-
-    on_intel do
-      url "https://github.com/sprouted-dev/guild/releases/download/v#{version}/guild-macos-x86_64.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
   end
 
   on_linux do
