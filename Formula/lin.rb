@@ -1,25 +1,25 @@
 class Lin < Formula
   desc "A fast CLI for Linear"
   homepage "https://github.com/sprouted-dev/lin"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/sprouted-dev/lin/releases/download/v#{version}/lin-macos-arm64.tar.gz"
-      sha256 "c94ea26e1d0fa1a45221c1de1936380aa254b83013c7f39cfa8d475f6d140c3f"
+      sha256 "0b63fbf79c645fbd2972ec906339605d00f593b8aa5009e62cb741b6ac1a3145"
     end
 
     on_intel do
       url "https://github.com/sprouted-dev/lin/releases/download/v#{version}/lin-macos-x86_64.tar.gz"
-      sha256 "e1e8236e46e9fe7519ed752368cf7021a831003cb9adcd01925a729c20b8c964"
+      sha256 "68486ebaac05c456be0fa449434b9006d585467a42ee7ac1e12142f9bc977415"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sprouted-dev/lin/releases/download/v#{version}/lin-linux-x86_64.tar.gz"
-      sha256 "041ef8e4abfa5096f66ad57a58da2dc7f48c91e30a14160a6e62b31442630d74"
+      sha256 "12724911d142093064b02147c3e6b3b76412014062f319443da3c87177743a38"
     end
   end
 
